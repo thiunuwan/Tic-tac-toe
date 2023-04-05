@@ -1,0 +1,21 @@
+.tictactoe-board{
+
+  border-collapse: collapse;
+  td{
+    --width:75px;
+    border: 1px solid black;
+    width: var(--width);
+    height: var(--width);
+    font-size:50px;text-align: center;
+    vertical-align: middle;
+  }
+
+  .occupied-x{
+    background-color: rgba(217, 29, 95, 0.68);
+  }
+  .occupied-o{
+    background-color: rgba(29, 45, 217, 0.68);
+  }
+
+}
+
